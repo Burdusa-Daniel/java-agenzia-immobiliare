@@ -8,6 +8,14 @@ class Abitazione extends Immobile {
         this.numeroBagni = numeroBagni;
     }
 
+    public int getNumeroVani() {
+        return numeroVani;
+    }
+
+    public int getNumeroBagni() {
+        return numeroBagni;
+    }
+
     @Override
     public String toString() {
         return super.toString() + ", Numero vani: " + numeroVani + ", Numero bagni: " + numeroBagni;

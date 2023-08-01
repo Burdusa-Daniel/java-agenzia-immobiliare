@@ -6,6 +6,10 @@ class Villa extends Abitazione {
         this.superficieGiardino = superficieGiardino;
     }
 
+    public int getSuperficieGiardino() {
+        return superficieGiardino;
+    }
+
     public void reimpostaSuperfici(int nuovaSuperficie) {
         setSuperficie(nuovaSuperficie);
     }

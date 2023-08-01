@@ -6,6 +6,10 @@ class Box extends Immobile {
         this.numeroPostiAuto = numeroPostiAuto;
     }
 
+    public int getNumeroPostiAuto() {
+        return numeroPostiAuto;
+    }
+
     @Override
     public String toString() {
         return super.toString() + ", Numero posti auto: " + numeroPostiAuto;

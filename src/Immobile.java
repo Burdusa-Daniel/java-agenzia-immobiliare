@@ -20,14 +20,6 @@ class Immobile {
         return personeInteressate;
     }
 
-    public void incrementaPersoneInteressate() {
-        personeInteressate++;
-    }
-
-    public void reimpostaSuperfici(int nuovaSuperficie) {
-        this.superficie = nuovaSuperficie;
-    }
-
     public String getCodice() {
         return codice;
     }
@@ -38,6 +30,25 @@ class Immobile {
 
     public void setSuperficie(int superficie) {
         this.superficie = superficie;
+    }
+
+    public String getIndirizzo() {
+        return indirizzo;
+    }
+
+    public String getCap() {
+        return cap;
+    }
+
+    public String getCittà() {
+        return città;
+    }
+    public void incrementaPersoneInteressate() {
+        personeInteressate++;
+    }
+
+    public void reimpostaSuperfici(int nuovaSuperficie) {
+        this.superficie = nuovaSuperficie;
     }
 
     @Override

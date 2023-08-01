@@ -19,7 +19,7 @@ class AgenziaImmobiliare {
         return null;
     }
 
-    public Immobile immobileConMassimoInteressati() {
+    public Immobile immobileConPiuLike() {
         int maxPersoneInteressate = -1;
         Immobile immobileMax = null;
 
